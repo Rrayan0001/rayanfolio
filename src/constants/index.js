@@ -1,80 +1,74 @@
 
 // Make changes here!!
 
-export const theme = "#ff0000" // red
+export const theme = "#f97316" // orange
 
-export const name = "NAME";
+export const name = "Mohamed Roshan Rayan";
 
 export const aboutMe =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis at temporibus cupiditate natus quam rerum, quisquam fugit in error. Lorem ipsum dolor sit amet.";
+  "I am an AI/ML engineering student and full-stack developer who builds practical products using web technologies, data systems, and LLM-powered features.";
 
 export const education1 = {
-  name: "Lorem ipsum dolor sit amet.",
-  branch: "Lorem ipsum dolor sit amet.",
-  year: "20XX - 20XX",
+  name: "BMS Institute of Technology and Management",
+  branch: "Bachelor of Engineering (AI & ML)",
+  year: "2022 – 2026 • CGPA: 8.45 / 10.0",
 };
 
 export const education2 = {
-  name: "Lorem ipsum dolor sit amet.",
-  branch: "Lorem ipsum dolor sit amet.",
-  year: "20XX - 20XX",
+  name: "Ashok PU College",
+  branch: "Pre-University Education",
+  year: "2020 – 2022 • Percentage: 91%",
 };
 
 export const experience = {
-  name: "Lorem ipsum dolor sit amet.",
-  moreInfo: "Lorem ipsum dolor sit amet.",
-  year: "Month 20XX - Month 20XX",
+  name: "Technical Lead — Margroms Private Limited",
+  moreInfo: "Built POS systems, websites, and AI tools for restaurant operations. Managed product development, client onboarding, and production deployments.",
+  year: "Dec 2024 – Present • Bengaluru",
 };
 
 export const projects = [
   {
-    name: "Project Name",
-    description: "Stack: reactjs, tailwindcss, etc",
-
-    href: "/",
-    cta: "Learn more",
-    background: "/images/wall4.jpg",
+    name: "Margros POS",
+    description: "Stack: Python, React, Node.js, Supabase, Groq API",
+    href: "https://rpos.margros.in",
+    cta: "View Live",
+    background: "/project_section_images/Margros_POS.png",
     className:
-      "md:col-start-1 md:col-end-4 md:row-start-3 md:row-end-5 col-start-2 col-end-3 row-start-1 row-end-4 ",
+      "md:col-start-1 md:col-end-4 md:row-start-3 md:row-end-5 col-start-1 col-end-3 row-start-4 row-end-5 ",
   },
   {
-    name: "Project Name",
-    description: "Stack: reactjs, tailwindcss, etc",
-
-    href: "/",
-    cta: "Learn more",
-    background: "/images/gg.jpg",
+    name: "OmniDesk AI",
+    description: "Stack: Python, JavaScript, Open Source LLMs",
+    href: "https://rayanai.roshanrayan.tech",
+    cta: "View Live",
+    background: "/project_section_images/Omnidesk.png",
     className:
       "md:row-start-1 md:row-end-3 md:col-start-3 md:col-end-5 col-start-1 col-end-2 row-start-1 row-end-3",
   },
   {
-    name: "Project Name",
-    description: "Stack: reactjs, tailwindcss, etc",
-
-    href: "/",
-    cta: "Learn more",
-    background: "/images/gg4.jpg",
+    name: "Internship Platform",
+    description: "Stack: Next.js, React, Supabase",
+    href: "https://internship.margros.in",
+    cta: "View Live",
+    background: "/project_section_images/Internship Platform.png",
     className:
       "md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-2  col-start-1 col-end-3 row-start-5 row-end-6 ",
   },
   {
-    name: "Project Name",
-    description: "Stack: reactjs, tailwindcss, etc",
-
-    href: "/",
-    cta: "Learn more",
-    background: "/images/wall.jpg",
-
+    name: "Marketplace",
+    description: "Stack: Next.js, React, Supabase",
+    href: "https://marketplace.margros.in",
+    cta: "View Live",
+    background: "/project_section_images/Marketplace.png",
     className:
-      "md:col-start-4 md:col-end-5 md:row-start-3 md:row-end-5 col-start-1 col-end-3 row-start-4 row-end-5",
+      "md:col-start-4 md:col-end-5 md:row-start-3 md:row-end-5 col-start-2 col-end-3 row-start-1 row-end-4",
   },
   {
-    name: "Project Name",
-    description: "Stack: reactjs, tailwindcss, etc",
-
-    href: "/",
-    cta: "Learn more",
-    background: "/images/wall5.jpg",
+    name: "CivicPark",
+    description: "Stack: Next.js, React, Maps API",
+    href: "https://civicpark.roshanrayan.tech",
+    cta: "View Live",
+    background: "/project_section_images/Civic_park.png",
     className:
       " md:col-start-1 md:col-end-3 md:row-start-2 md:row-end-3  col-start-1 col-end-2 row-start-3 row-end-3 ",
   },
@@ -158,7 +152,8 @@ export const skills = [
 
 
 export const socials = {
-  github: 'https://github.com/zzzzshawn',
-  twitter: 'https://x.com/zzzzshawn'
+  github: 'https://github.com/Rrayan0001',
+  linkedin: 'https://linkedin.com/in/rayan001',
+  email: 'mailto:rayan@roshanrayan.tech',
+  whatsapp: 'https://wa.me/917483988687',
 }
-

@@ -22,15 +22,24 @@ const Footer = () => {
         </Link>
         <Link
           className="footer-link"
-          to={socials.twitter}
+          to={socials.linkedin}
           target="_blank"
         >
           {" "}
-          twitter
+          linkedin •
+        </Link>
+        <Link
+          className="footer-link"
+          to={socials.email}
+          target="_blank"
+        >
+          {" "}
+          email
         </Link>
       </div>
-      <div className="max-sm:hidden">
-        <p>Made by shawn.</p>
+      <div className="max-sm:hidden flex items-center gap-3">
+        <img src="/logo.png" alt="Logo" className="w-7 h-7 object-contain" />
+        <p className="text-xl">rayan@roshanrayan.tech</p>
       </div>
     </footer>
   );

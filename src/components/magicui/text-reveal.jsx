@@ -60,7 +60,7 @@ export const TextRevealByWord = ({ text, className }) => {
         </p>
         <div className="flex items-center px-5 justify-start">
           <Modal>
-            <motion.button
+            <motion.div
               style={{ opacity: buttonOpacity, x: buttonX }}
               transition={{ type: "spring", stiffness: 300, damping: 10 }}
               className=""
@@ -73,13 +73,13 @@ export const TextRevealByWord = ({ text, className }) => {
                     )}
                   >
                     <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-4 transition ease-out hover:[color:var(--color)] hover:duration-300 lg:text-3xl md:text-2xl">
-                      <button>👋 Say hi!</button>
+                      <span>👋 Say hi!</span>
                       <ArrowRightIcon className="ml-1 size-5 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
                     </AnimatedShinyText>
                   </div>
                 </div>
               </ModalTrigger>
-            </motion.button>
+            </motion.div>
             <ModalForm />
           </Modal>
         </div>
@@ -92,7 +92,7 @@ const Word = ({ children, progress, range }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
     <span className="xl:lg-3 relative mx-1 lg:mx-2.5">
-      <p className={"absolute opacity-30"}>{children}</p>
+      <span className={"absolute opacity-30"}>{children}</span>
       <motion.span style={{ opacity: opacity }} className={"text-white"}>
         {children}
       </motion.span>

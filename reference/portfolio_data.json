@@ -1,0 +1,199 @@
+{
+  "profile": {
+    "name": "Mohamed Roshan Rayan",
+    "title": "AI/ML Engineer • Full Stack Developer",
+    "email": "rayan@roshanrayan.tech",
+    "phone": "+91 74839 88687",
+    "website": "roshanrayan.tech",
+    "resumePdfPath": "/resume/MOHAMEDROSHANRAYAN_1BY22AI057_BMSITM.pdf",
+    "whatsappUrl": "https://wa.me/917483988687",
+    "about": "I am an AI/ML engineering student and full-stack developer who builds practical products using web technologies, data systems, and LLM-powered features.",
+    "location": "Bengaluru, India",
+    "timezone": "UTC+5:30",
+    "status": "Open To Work",
+    "socials": [
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/rayan001", "external": true },
+      { "label": "GitHub", "href": "https://github.com/Rrayan0001", "external": true },
+      { "label": "Website", "href": "https://roshanrayan.tech", "external": true },
+      { "label": "WhatsApp", "href": "https://wa.me/917483988687", "external": true }
+    ],
+    "coreSkills": [
+      "Python",
+      "JavaScript",
+      "Web Development",
+      "Data Analytics",
+      "Machine Learning",
+      "Dev Ops"
+    ],
+    "tools": [
+      "React",
+      "Node.js",
+      "SQL",
+      "GitHub",
+      "Next.js",
+      "Figma",
+      "Three.js"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (AI&ML)",
+      "institution": "BMS Institute of Technology and Management",
+      "start": "2022",
+      "end": "2026",
+      "score": "CGPA: 8.45 / 10.0"
+    },
+    {
+      "degree": "Pre-University Education",
+      "institution": "Ashok PU College",
+      "start": "2020",
+      "end": "2022",
+      "score": "Percentage: 91%"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Technical Lead",
+      "company": "Margroms Private Limited",
+      "location": "Bengaluru",
+      "start": "Dec 2024",
+      "end": "Present",
+      "bullets": [
+        "Built POS systems, websites, and AI tools for restaurant operations.",
+        "Managed product development, client onboarding, and production deployments.",
+        "Led a small tech team and delivered real client-facing projects."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "margros-pos",
+      "title": "Margros POS",
+      "subtitle": "Product / Leadership",
+      "liveUrl": "https://rpos.margros.in",
+      "stack": ["Python", "React", "Node.js", "Supabase", "Groq API"],
+      "category": "leadership",
+      "summary": "SaaS-style POS and operations platform for restaurant workflows, billing, and product insights.",
+      "bullets": ["Live Link: rpos.margros.in"],
+      "placeholders": ["Billing View", "Orders", "AI Insights"]
+    },
+    {
+      "slug": "omnidesk-ai",
+      "title": "OmniDesk AI",
+      "subtitle": "AI / LLM",
+      "liveUrl": "https://rayanai.roshanrayan.tech",
+      "stack": ["Python", "JavaScript", "Open Source LLMs"],
+      "category": "ai",
+      "summary": "AI workspace with multiple open-source models, image generation, and side-by-side answer comparison.",
+      "bullets": ["Live Link: rayanai.roshanrayan.tech"],
+      "placeholders": ["Chat Workspace", "Model Comparison", "Image Generation"]
+    },
+    {
+      "slug": "interview-ai",
+      "title": "AI Interview Platform",
+      "subtitle": "AI / LLM",
+      "liveUrl": "https://interview-new.vercel.app",
+      "stack": ["Python", "Flask", "LLM APIs", "Database"],
+      "category": "ai",
+      "summary": "Interview prep platform that generates custom questions from a resume and scores answers with an LLM.",
+      "bullets": ["Live Link: interview-new.vercel.app"],
+      "placeholders": ["Resume Input", "Question Flow", "Score Report"]
+    },
+    {
+      "slug": "internship-platform",
+      "title": "Internship Platform",
+      "subtitle": "Platforms / Systems",
+      "liveUrl": "https://internship.margros.in",
+      "stack": ["Next.js", "React", "Supabase"],
+      "category": "leadership",
+      "summary": "Internship and placements platform for managing opportunities, applications, and student workflows.",
+      "bullets": ["Live Link: internship.margros.in"],
+      "placeholders": ["Openings", "Applications", "Dashboard"]
+    },
+    {
+      "slug": "marketplace",
+      "title": "Marketplace",
+      "subtitle": "Platforms / Systems",
+      "liveUrl": "https://marketplace.margros.in",
+      "stack": ["Next.js", "React", "Supabase"],
+      "category": "leadership",
+      "summary": "Marketplace platform for browsing, listing, and managing ecosystem offerings in one place.",
+      "bullets": ["Live Link: marketplace.margros.in"],
+      "placeholders": ["Listings", "Checkout", "Seller View"]
+    },
+    {
+      "slug": "civicpark",
+      "title": "CivicPark",
+      "subtitle": "Platforms / Systems",
+      "liveUrl": "https://civicpark.roshanrayan.tech",
+      "stack": ["Next.js", "React", "Maps API"],
+      "category": "leadership",
+      "summary": "Smart civic platform for managing public-space operations and improving community access.",
+      "bullets": ["Live Link: civicpark.roshanrayan.tech"],
+      "placeholders": ["Overview", "Map View", "Admin Panel"]
+    },
+    {
+      "slug": "capital-core-finance",
+      "title": "Capital Core Finance",
+      "subtitle": "Client Work",
+      "liveUrl": "https://www.capitalcorefinance.com",
+      "stack": ["Next.js", "React", "CSS"],
+      "category": "portfolio",
+      "summary": "Client-facing financing website with loan products, calculators, testimonials, and a service flow.",
+      "bullets": ["Live Link: www.capitalcorefinance.com"],
+      "placeholders": ["Hero", "Loans", "Calculator"]
+    },
+    {
+      "slug": "way2wealth4u",
+      "title": "WayToWealth4U",
+      "subtitle": "Client Work",
+      "liveUrl": "https://way-to-wealth4-u.vercel.app",
+      "stack": ["Next.js", "React", "CSS"],
+      "category": "portfolio",
+      "summary": "Finance consultancy website with product showcases, lead capture, and a clean client-first presentation.",
+      "bullets": ["Live Link: way-to-wealth4-u.vercel.app"],
+      "placeholders": ["Hero", "Services", "Calculator"]
+    },
+    {
+      "slug": "furniture-web",
+      "title": "Furniture Web",
+      "subtitle": "E-Commerce",
+      "liveUrl": "https://furniture-web-nine-beryl.vercel.app",
+      "stack": ["Next.js", "React", "CSS"],
+      "category": "ecommerce",
+      "summary": "Home decor e-commerce experience with collections, shopping, and product detail flows.",
+      "bullets": ["Live Link: furniture-web-nine-beryl.vercel.app"],
+      "placeholders": ["Home", "Shop", "Product Detail"]
+    }
+  ],
+  "galleryCategories": [
+    {
+      "id": "leadership",
+      "title": "Platforms / Systems",
+      "subtitle": "01",
+      "tone": "orange",
+      "intro": "Real products, internal systems, and platform work."
+    },
+    {
+      "id": "ai",
+      "title": "AI / LLM Projects",
+      "subtitle": "02",
+      "tone": "orange",
+      "intro": "Products centered on AI workflows and model-assisted features."
+    },
+    {
+      "id": "portfolio",
+      "title": "Client Work",
+      "subtitle": "03",
+      "tone": "orange",
+      "intro": "Client-facing work with business value and production polish."
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-Commerce",
+      "subtitle": "04",
+      "tone": "orange",
+      "intro": "Retail and commerce experiences with product presentation."
+    }
+  ]
+}

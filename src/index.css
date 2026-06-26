@@ -74,6 +74,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 640px) {
+  body, * {
+    cursor: auto !important;
+  }
+}
 /* Custom scrollbar for WebKit-based browsers */
 ::-webkit-scrollbar {
   width: 7px; /* Width of the scrollbar */
