@@ -46,12 +46,22 @@ const ModalForm = () => {
   const formRef = useRef(null); // Use a form reference
 
   function onSubmit() {
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICEID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATEID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLICKEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      console.error("EmailJS environment variables are not configured in Vercel/local .env");
+      toast({title: 'Email Config Missing!', variant:"destructive"});
+      return;
+    }
+
     emailjs
       .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICEID,
-        import.meta.env.VITE_EMAILJS_TEMPLATEID,
+        serviceId,
+        templateId,
         formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLICKEY
+        publicKey
       )
       .then(
         () => {
