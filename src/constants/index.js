@@ -10,21 +10,26 @@ export const aboutMe =
 
 export const education1 = {
   name: "BMS Institute of Technology and Management",
-  branch: "Bachelor of Engineering (AI & ML)",
-  year: "2022 – 2026 • CGPA: 8.45 / 10.0",
+  branch: "Yes, I actually studied in this college and completed my degree.",
+  year: "Miraculously survived 4 years and walked out with a degree — marksheet not included for everyone's peace of mind.",
 };
 
-export const education2 = {
-  name: "Ashok PU College",
-  branch: "Pre-University Education",
-  year: "2020 – 2022 • Percentage: 91%",
-};
 
-export const experience = {
-  name: "Technical Lead — Margroms Private Limited",
-  moreInfo: "Built POS systems, websites, and AI tools for restaurant operations. Managed product development, client onboarding, and production deployments.",
-  year: "Dec 2024 – Present • Bengaluru",
-};
+export const experiences = [
+  {
+    name: "Program Analyst Trainee — Cognizant",
+    moreInfo: "Working as a Program Analyst Trainee, focusing on software development, system analysis, and enterprise tech solutions.",
+    year: "July 2026 – Present",
+  },
+  {
+    name: "Technical Lead — Margroms Private Limited",
+    moreInfo: "Built POS systems, websites, and AI tools for restaurant operations. Managed product development, client onboarding, and production deployments.",
+    year: "Dec 2024 – Present • Bengaluru",
+  },
+];
+
+export const experience = experiences[0];
+
 
 export const projects = [
   {
