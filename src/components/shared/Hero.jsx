@@ -6,10 +6,13 @@ const Hero = () => {
   return (
     <div className="md:w-[90%] lg:w-[65%] mx-auto  ">
       <div className="flex flex-col p-5 items-center justify-center w-full">
+        <h1 className="sr-only">
+          Mohamed Roshan Rayan (Roshan Rayan, Rayan Engineer) — AI/ML Engineer & Full Stack Developer
+        </h1>
         <div className="relative h-[100vh] flex flex-col items-center justify-center w-full text-9xl max-xl:text-6xl max-sm:text-5xl">
-          <h1 className="inline-block">
+          <p className="inline-block" aria-hidden="true">
             <ReactRotatingText items={["Hello.", "Namaste."]} />
-          </h1>
+          </p>
         </div>
 
         <div className="z-10 md:w-[600px] sm:w-[70%] flex items-center justify-center rounded-lg relative ">

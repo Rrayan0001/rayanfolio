@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://roshanrayan.tech/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://roshanrayan.tech/logo.png</image:loc>
+      <image:title>Mohamed Roshan Rayan — AI/ML Engineer and Full Stack Developer</image:title>
+      <image:caption>Logo and portrait representation for Mohamed Roshan Rayan</image:caption>
+    </image:image>
+  </url>
+</urlset>

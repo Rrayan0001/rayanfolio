@@ -16,6 +16,8 @@ const Footer = () => {
           className="footer-link"
           to={socials.github}
           target="_blank"
+          rel="me noopener noreferrer"
+          aria-label="Mohamed Roshan Rayan GitHub Profile"
         >
           {" "}
           github •
@@ -24,6 +26,8 @@ const Footer = () => {
           className="footer-link"
           to={socials.linkedin}
           target="_blank"
+          rel="me noopener noreferrer"
+          aria-label="Mohamed Roshan Rayan LinkedIn Profile"
         >
           {" "}
           linkedin •
@@ -32,13 +36,21 @@ const Footer = () => {
           className="footer-link"
           to={socials.email}
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Send email to Mohamed Roshan Rayan"
         >
           {" "}
           email
         </Link>
       </div>
       <div className="max-sm:hidden flex items-center gap-3">
-        <img src="/logo.png" alt="Logo" className="w-7 h-7 object-contain" />
+        <img
+          src="/logo.png"
+          alt="Mohamed Roshan Rayan (Roshan Rayan) Logo"
+          className="w-7 h-7 object-contain"
+          width="28"
+          height="28"
+        />
         <p className="text-xl">rayan@roshanrayan.tech</p>
       </div>
     </footer>

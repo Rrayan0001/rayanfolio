@@ -1,0 +1,7 @@
+# https://roshanrayan.tech/robots.txt
+User-agent: *
+Allow: /
+
+# Host & Sitemap
+Host: https://roshanrayan.tech
+Sitemap: https://roshanrayan.tech/sitemap.xml

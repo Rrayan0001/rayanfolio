@@ -21,7 +21,8 @@ const ReviewCard = ({ src, title }) => {
           className="max-sm:w-16 max-lg:w-20"
           width="102"
           height="102"
-          alt=""
+          alt={`${title} skill icon`}
+          loading="lazy"
           src={src}
         />
         <div className="flex flex-col">
